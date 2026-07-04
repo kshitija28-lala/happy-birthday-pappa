@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Pappa ❤️</title>
+
+<nav>
+
+Happy Birthday Pappa ❤️
+
+</nav>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div id="intro">
+
+    <h1 id="introText"></h1>
+
+</div>
+
+<!-- Loader -->
+
+<div id="loader">
+    <h1>Happy Birthday Pappa ❤️</h1>
+    <p>Preparing your surprise...</p>
+</div>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<img src="Assets/images/hero.jpeg" alt="Pappa" class="hero-image">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h3>Congratulations! on completing Half Century of your life!✨</h3>
+
+<h3>Happy 50th Birthday Pappa!</h3>
+
+<h2>My Dear Pappa ❤️</h2>
+
+<p>
+Thank you for every smile,
+every sacrifice,
+and every lesson.
+</p>
+
+<div class="buttons">
+
+<button id="journeyBtn">
+
+Begin The Journey
+
+</button>
+
+<button id="musicBtn">
+
+Play Music 🎵
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MEMORY -->
+
+<section id="memory">
+
+<h1 class="heading">
+
+Memory Collection
+
+</h1>
+
+<p class="sub">
+
+Every click reveals another beautiful memory.
+
+</p>
+
+<div class="cards">
+
+<div class="card" onclick="openPopup('old')">
+
+<i class="fa-solid fa-camera-retro"></i>
+
+<h2>Pappa Through The Years</h2>
+
+<p>Old memories ❤️</p>
+
+</div>
+
+<div class="card" onclick="openPopup('love')">
+
+<i class="fa-solid fa-heart"></i>
+
+<h2>Pappa & Mumma</h2>
+
+<p>A beautiful journey</p>
+
+</div>
+
+<div class="card" onclick="openPopup('family')">
+
+<i class="fa-solid fa-users"></i>
+
+<h2>Our Family</h2>
+
+<p>Our happiest memories</p>
+
+</div>
+
+<div class="card" onclick="openPopup('friends')">
+
+<i class="fa-solid fa-gift"></i>
+
+<h2>Friends Forever</h2>
+
+<p>Special moments</p>
+
+</div>
+
+<div class="card" onclick="openPopup('letter')">
+
+<i class="fa-solid fa-envelope"></i>
+
+<h2>Letter</h2>
+
+<p>From Chiku ❤️</p>
+
+</div>
+
+<div class="card" onclick="openPopup('gift')">
+
+<i class="fa-solid fa-gift"></i>
+
+<h2>Your Gift</h2>
+
+<p>Open Me</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- POPUPS -->
+
+<div id="popup" class="popup">
+
+<div class="popup-content">
+
+<span class="close" onclick="closePopup()">&times;</span>
+
+<div id="popupBody"></div>
+
+</div>
+
+</div>
+
+<!-- Cake -->
+
+<section id="cake">
+
+<h1>🎂</h1>
+
+<h2>Happy Birthday Pappa</h2>
+
+<p>
+
+Click the cake to celebrate!
+
+</p>
+
+<button id="cakeBtn">
+
+Celebrate 🎉
+
+</button>
+
+</section>
+
+<!-- Final -->
+
+<section id="final">
+
+<h1 id="line1">
+
+Happy Birthday
+
+</h1>
+
+<h1 id="line2">
+
+Pappa ❤️
+
+</h1>
+
+<p id="line3">
+
+No matter how old I become...
+
+</p>
+
+<p id="line4">
+
+I'll always be
+
+your little girl.
+
+</p>
+
+<h2 id="line5">
+
+With Love,
+
+<br>
+
+Chiku ❤️
+
+</h2>
+
+<footer class="site-footer">
+Made with ❤️ by Chiku
+</footer>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<audio id="bgMusic" loop>
+    <source src="Assets/music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
